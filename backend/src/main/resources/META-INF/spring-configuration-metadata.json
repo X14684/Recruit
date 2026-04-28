@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.campus.recruitment.config.JwtProperties",
+      "sourceType": "com.campus.recruitment.config.JwtProperties",
+      "description": "JWT配置属性"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "JWT密钥"
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.Long",
+      "description": "JWT过期时间（毫秒）"
+    },
+    {
+      "name": "jwt.header",
+      "type": "java.lang.String",
+      "description": "JWT请求头名称"
+    },
+    {
+      "name": "jwt.prefix",
+      "type": "java.lang.String",
+      "description": "JWT令牌前缀"
+    }
+  ],
+  "hints": []
+}

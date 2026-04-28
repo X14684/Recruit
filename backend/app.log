@@ -1,0 +1,42 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-17T00:39:39.601+08:00  INFO 60828 --- [campus-recruitment] [           main] c.c.r.CampusRecruitmentApplication       : Starting CampusRecruitmentApplication v1.0.0 using Java 25.0.1 with PID 60828 (C:\Users\14684\WorkBuddy\20260316183546\backend\target\campus-recruitment-1.0.0.jar started by 14684 in c:\Users\14684\WorkBuddy\20260316183546\backend)
+2026-03-17T00:39:39.604+08:00 DEBUG 60828 --- [campus-recruitment] [           main] c.c.r.CampusRecruitmentApplication       : Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-17T00:39:39.605+08:00  INFO 60828 --- [campus-recruitment] [           main] c.c.r.CampusRecruitmentApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-17T00:39:40.712+08:00  INFO 60828 --- [campus-recruitment] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-17T00:39:40.715+08:00  INFO 60828 --- [campus-recruitment] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-17T00:39:40.751+08:00  INFO 60828 --- [campus-recruitment] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (jar:nested:/C:/Users/14684/WorkBuddy/20260316183546/backend/target/campus-recruitment-1.0.0.jar/!BOOT-INF/lib/tomcat-embed-core-10.1.36.jar!/)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2026-03-17T00:39:41.636+08:00  INFO 60828 --- [campus-recruitment] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-17T00:39:41.654+08:00  INFO 60828 --- [campus-recruitment] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17T00:39:41.654+08:00  INFO 60828 --- [campus-recruitment] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-17T00:39:41.690+08:00  INFO 60828 --- [campus-recruitment] [           main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-03-17T00:39:41.691+08:00  INFO 60828 --- [campus-recruitment] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2022 ms
+2026-03-17T00:39:41.916+08:00 DEBUG 60828 --- [campus-recruitment] [           main] c.c.r.common.config.JwtAuthFilter        : Filter 'jwtFilterRegistration' configured for use
+Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+Get /172.20.10.7 network interface 
+Get network interface info: name:wireless_32768 (MediaTek Wi-Fi 6E MT7922 (RZ616) 160MHz PCIe Adapter)
+Initialization Sequence datacenterId:6 workerId:14
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.11 
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::allocateMemory has been called by io.netty.util.internal.PlatformDependent0$2 (jar:nested:/C:/Users/14684/WorkBuddy/20260316183546/backend/target/campus-recruitment-1.0.0.jar/!BOOT-INF/lib/netty-common-4.1.118.Final.jar!/)
+WARNING: Please consider reporting this to the maintainers of class io.netty.util.internal.PlatformDependent0$2
+WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
+2026-03-17T00:39:44.210+08:00  INFO 60828 --- [campus-recruitment] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-17T00:39:44.302+08:00  INFO 60828 --- [campus-recruitment] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2026-03-17T00:39:44.319+08:00  INFO 60828 --- [campus-recruitment] [           main] c.c.r.CampusRecruitmentApplication       : Started CampusRecruitmentApplication in 5.166 seconds (process running for 5.68)
